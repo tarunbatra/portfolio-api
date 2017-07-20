@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-api",
+  "version": "1.0.0",
+  "description": "Sample API involving Portfolio, Trades, Stocks",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./",
+    "lint:fix": "eslint ./ --fix",
+    "start": "node index.js",
+    "test": "npm run lint"
+  },
+  "author": "Tarun Batra <tarun.batra00@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.2.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}

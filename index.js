@@ -21,6 +21,7 @@ app.use(Responder.init);
 
 app.get('/trades/:id', Trades.get);
 app.get('/', Trades.fetchPortfolio);
+app.get('/holdings', Trades.fetchHoldings);
 app.post('/addTrade', Trades.create);
 app.post('/updateTrade/:id', Trades.update);
 app.post('/removeTrade/:id', Trades.delete);

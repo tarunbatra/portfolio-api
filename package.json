@@ -12,7 +12,9 @@
   "author": "Tarun Batra <tarun.batra00@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^4.2.0"
+    "eslint": "^4.2.0",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0"
   },
   "dependencies": {
     "body-parser": "^1.17.2",

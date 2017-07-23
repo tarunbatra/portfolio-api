@@ -1,0 +1,29 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true,
+  },
+  "globals": {
+    "logger": true
+  },
+  "extends": "airbnb-base",
+  "plugins": [
+      "import"
+  ],
+  "rules": {
+    "arrow-parens": 0,
+    "comma-dangle": 0,
+    "consistent-return": 0,
+    "import/no-extraneous-dependencies": 0,
+    "max-len": [ "error", { "code": 200, "comments": 200 } ],
+    "newline-per-chained-call": 0,
+    "no-param-reassign": ["error", { "props": false }],
+    "no-plusplus": 0,
+    "no-restricted-syntax": 0,
+    "no-underscore-dangle": 0,
+    "no-unused-expressions": 0,
+    "object-shorthand": 0,
+    "global-require": 0,
+    "no-use-before-define": 0
+  },
+}

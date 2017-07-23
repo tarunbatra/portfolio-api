@@ -34,11 +34,11 @@ connectDatabase()
   .on('disconnected', connectDatabase)
   .once('open', listenRequests);
 
-function listenRequests () {
+function listenRequests() {
   app.listen(PORT);
   console.log(`Server running at ${PORT}`);
 }
 
-function connectDatabase () {
+function connectDatabase() {
   return mongoose.connect(MONGO_URL).connection;
 }

@@ -3,7 +3,6 @@
  */
 
 
-const mongoose = require('mongoose');
 const _ = require('underscore');
 const Stocks = require('../services/stocks');
 const Trade = require('../models/trade');
